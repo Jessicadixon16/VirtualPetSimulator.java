@@ -1,12 +1,11 @@
-import java.util.Random;
+import java.util.Scanner;
 
 public class VirtualPet {
     private String name;
     private int age;
     private PetNeeds petNeeds;
     private int getRandomNumber(int min, int max) {
-        Random random = new Random();
-        return random.nextInt(max-min + 1) + min;
+        return (int)(Math.random()(max-min + 1);
     }
 
 
